@@ -13,44 +13,50 @@
     <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Great+Vibes&family=Outfit:wght@100..900&family=Parisienne&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="bg-[#edeaf3] w-80 overflow-y-scroll h-160">
-        <div class="max-w-1200 ml-auto mr-auto">
-            <div class="w-35 ml-auto mr-auto mb-10">
-                <a href="#" class="flex justify-center">
-                    <img src="all-img/header/my-e-logo.png" alt="eror" class="w-20 mb-5">
-                </a>
-                <a href="#" class="font-bold text-xl border-b border-[#5806ec] pb-2"><i class="fa-solid fa-circle-user"></i> My Profile</a>
-            </div>
-            <hr>
-            <ul class="text-center mb-15 mt-10">
-                <li class="mb-15">
-                    <a href="#" class="text-lg">Home</a>
-                </li>
-                <li class="mb-15">
-                    <a href="#" class="text-lg">About</a>
-                </li>
-                <li class="mb-15">
-                    <a href="#" class="text-lg">Why us</a>
-                </li>
-                <li class="mb-15">
-                    <a href="#" class="text-lg">IELTS</a>
-                </li>
-                <li class="mb-15">
-                    <a href="#" class="text-lg">CEFR</a>
-                </li>
-                <li class="mb-15">
-                    <a href="#" class="text-lg">Mock Tests</a>
-                </li>
-                <a href="#" class="bg-[#5806ec] text-stone-50 text-lg pt-3 rounded-lg pb-3 pl-15 pr-15"><i class="fa-solid fa-coins"></i> Pricing</a>
-            </ul>
-            <hr>
-            <div class="flex gap-10 text-xl justify-center pb-10 pt-10">
-                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-telegram"></i></a>
-                <a href="#"><i class="fa-solid fa-phone"></i></a>
-                <a href="#"><i class="fa-solid fa-location-dot"></i></a>
-            </div>
-        </div>
-    </header>
+<header class="sidebar fixed top-0 left-0 h-screen w-80 bg-[#edeaf3] overflow-y-auto scrollbar-hide hover:scrollbar-default shadow-xl">
+  <div class="max-w-[260px] mx-auto py-5">
+
+    <!-- Logo + Profile -->
+    <div class="text-center mb-8">
+      <a href="#" class="block mb-5">
+        <img src="all-img/header/my-e-logo.png" alt="logo" class="w-20 mx-auto">
+      </a>
+      <a href="#" class="font-bold text-xl text-gray-800 border-b-2 border-purple-700 pb-2 inline-block">
+        <i class="fa-solid fa-circle-user"></i> My Profile
+      </a>
+    </div>
+
+    <hr class="border-gray-300 mb-8">
+
+    <!-- Menu -->
+    <ul class="space-y-6 text-center mb-8">
+      <li><a href="#" class="text-lg text-gray-700 hover:text-purple-700 transition-colors">Home</a></li>
+      <li><a href="#" class="text-lg text-gray-700 hover:text-purple-700 transition-colors">About</a></li>
+      <li><a href="#" class="text-lg text-gray-700 hover:text-purple-700 transition-colors">Why us</a></li>
+      <li><a href="#" class="text-lg text-gray-700 hover:text-purple-700 transition-colors">IELTS</a></li>
+      <li><a href="#" class="text-lg text-gray-700 hover:text-purple-700 transition-colors">CEFR</a></li>
+      <li><a href="#" class="text-lg text-gray-700 hover:text-purple-700 transition-colors">Mock Tests</a></li>
+    </ul>
+
+    <!-- Pricing -->
+    <a href="#" class="block bg-purple-700 text-white text-lg py-3 px-6 rounded-lg text-center mb-8 hover:bg-purple-800 transition-colors">
+      <i class="fa-solid fa-coins"></i> Pricing
+    </a>
+
+    <hr class="border-gray-300 mb-8">
+
+    <!-- Social Links -->
+    <div class="flex justify-center gap-6 text-xl text-gray-800">
+      <a href="#" class="hover:text-purple-700 transition-colors"><i class="fa-brands fa-square-instagram"></i></a>
+      <a href="#" class="hover:text-purple-700 transition-colors"><i class="fa-brands fa-telegram"></i></a>
+      <a href="#" class="hover:text-purple-700 transition-colors"><i class="fa-solid fa-phone"></i></a>
+      <a href="#" class="hover:text-purple-700 transition-colors"><i class="fa-solid fa-location-dot"></i></a>
+    </div>
+
+  </div>
+</header>
+
+
+<script src="app.js/app.js"></script>
 </body>
 </html>

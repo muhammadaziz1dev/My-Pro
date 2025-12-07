@@ -1,0 +1,17 @@
+/* Hide default scrollbar */
+.scrollbar-hide::-webkit-scrollbar {
+  width: 5px;
+}
+/* Hoverda scroll ko‘rsatish */
+.hover\:scrollbar-default:hover::-webkit-scrollbar {
+  width: 6px;
+}
+
+.hover\:scrollbar-default:hover::-webkit-scrollbar-thumb {
+  background-color: #b3a7d6; /* yumshoq pastel */
+  border-radius: 10px;
+}
+
+.hover\:scrollbar-default:hover::-webkit-scrollbar-track {
+  background: transparent;
+}
