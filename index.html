@@ -6,55 +6,58 @@
     <title>MME Mock Exam</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="shortcut icon" href="all-img/header/my-e-logo.png" type="image/x-icon">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Great+Vibes&family=Outfit:wght@100..900&family=Parisienne&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
 <body>
-<header class="sidebar fixed top-0 left-0 h-screen w-80 bg-[#edeaf3] overflow-y-auto scrollbar-hide hover:scrollbar-default shadow-xl">
-  <div class="max-w-[260px] mx-auto py-5">
 
-    <!-- Logo + Profile -->
-    <div class="text-center mb-8">
-      <a href="#" class="block mb-5">
-        <img src="all-img/header/my-e-logo.png" alt="logo" class="w-20 mx-auto">
-      </a>
-      <a href="#" class="font-bold text-xl text-gray-800 border-b-2 border-purple-700 pb-2 inline-block">
-        <i class="fa-solid fa-circle-user"></i> My Profile
-      </a>
+<!-- ========== SIDEBAR ========== -->
+<header class="sidebar">
+    <div class="sidebar-inner">
+
+        <div class="logo-box">
+            <img src="all-img/header/my-e-logo.png" alt="logo" class="logo-img"> <br>
+            <a href="#" class="profile-link"><i class="fa-solid fa-circle-user"></i> My Profile</a>
+        </div>
+
+        <hr class="divider">
+
+        <ul class="menu-list">
+            <li><a class="menu-link" href="#">Home</a></li>
+            <li><a class="menu-link" href="#">About</a></li>
+            <li><a class="menu-link" href="#">Why us</a></li>
+            <li><a class="menu-link" href="#">IELTS</a></li>
+            <li><a class="menu-link" href="#">CEFR</a></li>
+            <li><a class="menu-link" href="#">Mock Tests</a></li>
+        </ul>
+
+        <a href="#" class="pricing-btn"><i class="fa-solid fa-coins"></i> Pricing</a>
+
+        <hr class="divider">
+
+        <div class="social-links">
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+            <a href="#"><i class="fa-solid fa-phone"></i></a>
+            <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+        </div>
+
     </div>
-
-    <hr class="border-gray-300 mb-8">
-
-    <!-- Menu -->
-    <ul class="space-y-6 text-center mb-8">
-      <li><a href="#" class="text-lg text-gray-700 hover:text-purple-700 transition-colors">Home</a></li>
-      <li><a href="#" class="text-lg text-gray-700 hover:text-purple-700 transition-colors">About</a></li>
-      <li><a href="#" class="text-lg text-gray-700 hover:text-purple-700 transition-colors">Why us</a></li>
-      <li><a href="#" class="text-lg text-gray-700 hover:text-purple-700 transition-colors">IELTS</a></li>
-      <li><a href="#" class="text-lg text-gray-700 hover:text-purple-700 transition-colors">CEFR</a></li>
-      <li><a href="#" class="text-lg text-gray-700 hover:text-purple-700 transition-colors">Mock Tests</a></li>
-    </ul>
-
-    <!-- Pricing -->
-    <a href="#" class="block bg-purple-700 text-white text-lg py-3 px-6 rounded-lg text-center mb-8 hover:bg-purple-800 transition-colors">
-      <i class="fa-solid fa-coins"></i> Pricing
-    </a>
-
-    <hr class="border-gray-300 mb-8">
-
-    <!-- Social Links -->
-    <div class="flex justify-center gap-6 text-xl text-gray-800">
-      <a href="#" class="hover:text-purple-700 transition-colors"><i class="fa-brands fa-square-instagram"></i></a>
-      <a href="#" class="hover:text-purple-700 transition-colors"><i class="fa-brands fa-telegram"></i></a>
-      <a href="#" class="hover:text-purple-700 transition-colors"><i class="fa-solid fa-phone"></i></a>
-      <a href="#" class="hover:text-purple-700 transition-colors"><i class="fa-solid fa-location-dot"></i></a>
-    </div>
-
-  </div>
 </header>
+
+<!-- ========== BANNER ========== -->
+<section class="banner">
+    <div class="banner-container">
+        <h1 class="banner-title">Welcome to <span class="highlight">MME Mock Exam</span></h1>
+
+        <p class="banner-text">
+            IELTS, CEFR va boshqa ingliz tili imtihonlariga tayyorlanish uchun
+            mo‘ljallangan platforma. Online testlar, natija tahlili va foydali
+            materiallar siz uchun.
+        </p>
+
+        <a href="#" class="banner-btn">Start Testing</a>
+    </div>
+</section>
 
 
 <script src="app.js/app.js"></script>

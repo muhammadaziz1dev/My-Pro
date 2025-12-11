@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - MME Mock Exam</title>
+    <link rel="stylesheet" href="../register/reg.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="shortcut icon" href="../all-img/header/my-e-logo.png" type="image/x-icon">
+</head>
+<body>
+
+<section class="register">
+    <div class="register-container">
+        <h1 class="register-title">Ro'yxatdan o'tish</h1>
+        
+        <!-- Step 1: Email -->
+        <div class="step step-email">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="example@mail.com">
+            <button id="send-code" class="btn btn-primary">Kod yuborish</button>
+        </div>
+
+        <!-- Step 2: Verify Code -->
+        <div class="step step-code" style="display:none;">
+            <label for="code">Kodni kiriting</label>
+            <input type="text" id="code" placeholder="6 xonali kod">
+            <button id="verify-code" class="btn btn-primary">Tasdiqlash</button>
+        </div>
+
+        <!-- Step 3: Set Password -->
+        <div class="step step-password" style="display:none;">
+            <label for="password">Parol o‘rnating</label>
+            <input type="password" id="password" placeholder="Parol">
+            <button id="set-password" class="btn btn-primary">Keyingi</button>
+        </div>
+    </div>
+</section>
+
+<script src="../register/reg.js"></script>
+</body>
+</html>
